@@ -1,0 +1,16 @@
+.aboutHeader
+{
+    background: url('../../../../assets/img/pg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 0px;
+}
+.aboutService
+{
+    background: url('../../../../assets/img/04.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 0px;
+}
