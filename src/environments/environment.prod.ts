@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  adminUrl :'https://antaayaarchitects.com/sb-admin-angular/'
 };

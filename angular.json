@@ -32,7 +32,8 @@
               "src/assets/js/jquery-3.0.0.min.js",
               "src/assets/js/jquery-migrate-3.0.0.min.js",
               "src/assets/js/plugins.js",
-              "src/assets/js/scripts.js"
+              "src/assets/js/scripts.js",
+              "src/assets/js/map.js"
 
             ]
           },

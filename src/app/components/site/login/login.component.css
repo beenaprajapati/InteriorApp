@@ -1,0 +1,12 @@
+
+.login
+{
+    background: url('../../../../assets/img/pg1.jpg');
+    max-width: 100%;
+    padding-top: 200px;
+    min-height: 100vh;
+}
+.cancel
+{
+    margin-left:10px;
+}

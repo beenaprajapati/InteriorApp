@@ -27,12 +27,20 @@ export class ScriptService {
       '../../assets/js/map.js'
      ];
      for (let i = 0; i < dynamicScripts.length; i++) {
-       const node = document.createElement('script');
+      var scripts = document.getElementsByTagName("script");
+      for(var j= 0; j< scripts.length; j++) 
+      {
+         if(scripts[j].getAttribute('src') == dynamicScripts[i]) 
+         {
+        //  document.getElementsByTagName('head')[0].removeChild(scripts[j]);
+         }
+      }
+      const node = document.createElement('script');
        node.src = dynamicScripts[i];
        node.type = 'text/javascript';
        node.async = false;
        node.charset = 'utf-8';
-       document.getElementsByTagName('head')[0].appendChild(node);
+      document.getElementsByTagName('head')[0].appendChild(node);
      }
   }
   
