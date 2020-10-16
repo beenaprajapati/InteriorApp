@@ -46,7 +46,7 @@ export class LoginComponent implements OnInit {
 
         this.loading = true;
         
-        if(this.f.username.value =="admin" &&  this.f.password.value =="admin")
+        if(this.f.username.value.toLowerCase() =="admin" &&  this.f.password.value.toLowerCase() =="admin")
         {
             window.location.href =this.baseURL;
         }
