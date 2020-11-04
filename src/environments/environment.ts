@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   adminUrl: 'https://antaayaarchitects.com/sb-admin-angular/',
-  apiUrl :''
+  baseUrl :'https://antaayaarchitects.com/interiorapp/'
 };
 
 /*

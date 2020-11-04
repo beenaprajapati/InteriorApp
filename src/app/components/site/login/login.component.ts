@@ -11,6 +11,7 @@ export class LoginComponent implements OnInit {
     submitted = false;
     returnUrl: string;
     baseURL = environment.adminUrl;
+    url =environment.baseUrl;
     constructor(
         private formBuilder: FormBuilder,
         private route: ActivatedRoute,
@@ -53,6 +54,6 @@ export class LoginComponent implements OnInit {
     }
     Cancel()
     {
-        this.router.navigate(['/home']);
+        window.location.href =this.url;
     }
 }
